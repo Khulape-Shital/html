@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #2e2d2d;
+    color: #fff;
+background: linear-gradient(to top right, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS20IVWmHVvcUwY9ypM2NuXrXgvduEe1vGmUg&s") center center/cover;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+img{
+   position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 50px;
+    object-fit: cover;
+}
+.select{
+    position: absolute;
+     top: 10px;
+    right: 10px;
+     margin-left: 20px;
+     margin-top: 20px;
+     height: 50px;
+     object-fit: cover;
+     justify-items: center;
+ }
+.h1{
+    margin-bottom: 37px;
+
+}
+.h3{
+    font-size: 33px;
+}
+.land{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.p{
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.input{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+     border :none
+}
+.email input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.lang{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}

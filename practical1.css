@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(222, 139, 139);
+}
+.name{
+    margin-top: auto;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+   
+    display: flex;
+    
+    justify-content:space-evenly;
+
+    background-color: red;
+}
+div{
+    margin-top: 200px;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
