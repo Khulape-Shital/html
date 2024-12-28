@@ -1,0 +1,31 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: #c62d2d;
+    transition: all 4s;
+}
+div:hover{
+    background-color: #2dc6c6;
+    width: 200px;
+    height: 200px;
+} */
+
+.container{
+    
+    height: 100vh;
+    width: 100vh;
+
+}
+  .b1{
+    width: 100px;
+    height: 100px;
+    background-color: #c62d2d;
+    transition-property: all;
+    transition-duration: 1s;
+}  
+ .b1:hover{
+    background-color: #930564;
+    transform: translateX(100px);
+    transform: scale(1.1);
+   
+}  
